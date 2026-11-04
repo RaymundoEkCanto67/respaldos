@@ -1,4 +1,4 @@
-<?php
+<?php //no deben usar root en produccion
 $conexion = new mysqli("localhost:3307", "root", "", "trejo");
 
 if ($conexion->connect_error) {
