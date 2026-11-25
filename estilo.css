@@ -1,4 +1,6 @@
-body {
+body {   
+    
+    /*comentario 3*/
     background: linear-gradient(135deg, #690202, #030303);
     min-height: 100vh;
     display: flex;
