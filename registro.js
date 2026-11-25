@@ -2,6 +2,7 @@ const formularioRegistro = document.getElementById("registroForm");
 
 formularioRegistro.addEventListener("submit", function(event) {
     event.preventDefault();
+     // comentario 2
 
     const nombre = document.getElementById("nombre").value.trim();
     const control = document.getElementById("control").value.trim();
